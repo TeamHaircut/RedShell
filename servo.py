@@ -5,6 +5,7 @@ servo = Servo(17)
 servo.min()
 while True:
 	print("True")
+	print("TEST")
 	servo.min()
 	sleep(1.5)
 	servo.mid()
