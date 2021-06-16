@@ -1,1 +1,4 @@
 # RedShell
+
+contributors:
+TeamHaircut
