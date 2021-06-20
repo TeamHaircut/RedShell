@@ -33,6 +33,11 @@ TPL = '''
 			// If our gamepad isn't connected, stop here.
 			if (!gamepad) return;
 
+				//gamepad.buttons[i] mapping
+				//9 8
+				//3 0 4 6
+				//2 1 5 7
+
         		if (gamepad.axes[0] == -1)
         		{
 					document.getElementById('leftbtn').submit();
