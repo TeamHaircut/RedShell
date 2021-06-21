@@ -5,6 +5,8 @@ import socketserver
 from threading import Condition
 from http import server
 
+# http://picamera.readthedocs.io/en/latest/recipes2.html#web-streaming
+
 PAGE="""\
 <html>
 <head>
